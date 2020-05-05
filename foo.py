@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+## Figure out the min ops it takes to reach a number 
+## starting from 1 using ops +1, *2 and *3
 
 ops = [0, 0] + [-1] * 10000
 res = ["", "1"] + [""] * 10000
