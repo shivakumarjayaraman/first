@@ -1,0 +1,38 @@
+1609838646002	geckodriver	INFO	Listening on 127.0.0.1:60662
+1609838646015	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y9/vbqv9xgj14v5f6ympwp4kh9h0000gn/T/rust_mozprofileZ1q5EQ"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "URL_TO_ALTERNATE_PROVIDER" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for DNSOverHTTPS.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609838649541	Marionette	INFO	Listening on port 60671
+1609838889241	geckodriver	INFO	Listening on 127.0.0.1:60790
+1609838889254	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y9/vbqv9xgj14v5f6ympwp4kh9h0000gn/T/rust_mozprofileRDnlh7"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "URL_TO_ALTERNATE_PROVIDER" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for DNSOverHTTPS.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609838891940	Marionette	INFO	Listening on port 60799
+1609838892039	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609839491673	geckodriver	INFO	Listening on 127.0.0.1:61048
+1609839491686	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y9/vbqv9xgj14v5f6ympwp4kh9h0000gn/T/rust_mozprofilerx39xi"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "URL_TO_ALTERNATE_PROVIDER" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for DNSOverHTTPS.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609839494501	Marionette	INFO	Listening on port 61057
+1609839494563	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609839898112	Marionette	INFO	Stopped listening on port 61057
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609839903846	Marionette	INFO	Stopped listening on port 60799
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609839909625	Marionette	INFO	Stopped listening on port 60671
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
