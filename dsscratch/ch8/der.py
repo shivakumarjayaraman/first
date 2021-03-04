@@ -52,3 +52,6 @@ def plotDerAndEst() :
 
     ##plt.legend(loc=90)
     plt.show()
+
+if __name__ == "__main__" :
+    plotDerAndEst()

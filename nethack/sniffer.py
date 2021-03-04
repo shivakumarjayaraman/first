@@ -32,7 +32,7 @@ for opt in opts :
     else :
         usage()
 
-pcap = pcapy.open_live(dev, 1500, 0, 100)
+pcap = pcapy.open_live(dev, 1500, 1, 100)
 print (f"-{filter}-")
 pcap.setfilter(filter)
 pcap.loop(0, handle_packet)

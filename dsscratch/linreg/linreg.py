@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 
-## Take some example data that converts celsius to farenheit and try to find the formula using 
-## linear regression using gradient descent
+## Take some example data that converts celsius to farenheit and try to find the 
+## formula using linear regression using gradient descent
 
 import numpy as np
 
 ## Canned data using the known formula (which we try to reinvent using gradient descent)
+##
 def getExamples(n) :
-    return np.array([[i*5.0, i*9.0 + 32] for i in range(n)])
+    return [(i*5.0, i*9.0 + 32) for i in range(n)]
 
+## Use gradient descent to determine the best values for m and c, to fit the 
+## data .. (basically determine a formula for centigrade to farenheit conv)
 def findFit(m, c, points) :
     epoch = 10000
     learnrate = 0.001
@@ -27,10 +30,11 @@ def findFit(m, c, points) :
 
 
 if __name__ == "__main__" :
-    d = getExamples(30)
+    d = getExamples(14)
+    print (d)
     m, c = findFit(1, -1, d)
-    print (m, c)
+    print (f"faren = {m} * celsius +  {c}")
     for x, y in d :
-        #print (x, y, m*x + c)
-        pass
+        print (x, y, m*x + c)
+        #pass
 
