@@ -1,0 +1,13 @@
+The python modules needed by this project are all installed in a virtualenv. This was initially created using the command
+
+virtualenv mytest
+
+However, this is something that needs to be just done once. 
+
+Later, just run 
+
+source mytest/bin/activate 
+
+The python env here has django, selenium etc .. 
+
+To come out of the env, just type deactivate
