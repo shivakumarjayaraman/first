@@ -2,8 +2,8 @@
 
 import random
 
-## Throw n darts into a square of radius 2 
-## and return the number of darts that fall inside the circle
+## Throw n darts into a square of side 2 
+## and return the number of darts that fall inside the in-circle (of radius 1)
 def throwDarts(n) :
     ## generate two random numbers between -1 and 1
     ## if the distance from the origin is < 1, its inside 
