@@ -5,4 +5,4 @@ def genperm(x) :
     return (x[i] + str for i in range(len(x)) 
            for str in genperm("".join(x[:i] + x[i+1:])))
 
-print (list(genperm("abc")))
+print (list(genperm("abcd")))
