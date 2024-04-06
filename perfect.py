@@ -7,7 +7,9 @@ def isPerfect(n):
     return (sum == n)
 
 
-for i in range(1, 10000):
-    if (isPerfect(i)) :
-        print (i)
+#for i in range(1, 10000):
+#    if (isPerfect(i)) :
+#        print (i)
       
+
+print (list(i for i in range(1, 10000) if isPerfect(i)))
