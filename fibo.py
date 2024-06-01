@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-## fibonacci with memoizing .. 
+## fibonacci with memoizing .. ..
 cache = {}
 
 def fib(n) :
