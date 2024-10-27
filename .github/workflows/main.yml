@@ -1,0 +1,8 @@
+name: main
+on: [push]
+jobs: 
+  TestJob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!!"
+      
