@@ -37,4 +37,5 @@ if __name__ == "__main__" :
     for x, y in d :
         print (x, y, m*x + c)
         #pass
+    print (m*100 + c)
 
